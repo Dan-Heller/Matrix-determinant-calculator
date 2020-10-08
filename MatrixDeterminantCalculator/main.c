@@ -5,7 +5,7 @@ void main() {
 
 	int n, Determinant;
 
-	printf(" Enter the order of the matrix with one number: ");
+	printf("Enter the order of the matrix with one number: ");
 	scanf("%d", &n);
 
 	int** Mat = BuildMatrix(n);
